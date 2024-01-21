@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+h1 {
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    max-width: 1382px;
+    margin: 0 auto;
+}
+.header-nav_ul {
+    display: flex;
+    gap: 30px;
+}
+.header-nav_li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.header-nav_link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.skeyt-one {
+    margin-top: 100px;
+}
+.skeyt-one_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 15px;
+}
+.skeyt-one-card_text {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 73px 0 67px 78px;
+}
+.skeyt-one-card_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+.skeyt-one-card_subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.skeyt-btn-link {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 29px 40px;
+}
+.skeyt-btn-link_container span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-right: 109px;
+    cursor: pointer;
+}
